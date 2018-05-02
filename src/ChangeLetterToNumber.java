@@ -1,4 +1,4 @@
-import java.util.Arrays;
+
 
 public class ChangeLetterToNumber {
 
@@ -122,5 +122,5 @@ public class ChangeLetterToNumber {
         }
         return arrayOfNumber;
     }
-    
+
 }
