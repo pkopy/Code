@@ -1,10 +1,10 @@
 public class Main {
     public static void main(String[] args) {
 
-        Code code = new Code("Taaaka ryba jadła grzyyyba","most");
+        Code code = new Code("ciasto","dar");
         System.out.println(code.getResult());
 
-        Decode decode = new Decode("ÓOSTWORAAPSSVOVMMNYABCGHNO", "most");
+        Decode decode = new Decode("FIRVTÓ", "dar");
         System.out.println(decode.getResult());
 
     }

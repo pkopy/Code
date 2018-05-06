@@ -32,8 +32,7 @@ public class Code {
     }
 
     public String[] splitWord(String word) {
-        String[] array = word.split("");
-        return array;
+        return word.split("");
     }
 
 
