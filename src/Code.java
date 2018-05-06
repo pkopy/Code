@@ -70,8 +70,6 @@ public class Code {
         return word;
     }
 
-    public String getKey() {
-        return key;
-    }
+
 }
 

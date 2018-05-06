@@ -21,8 +21,6 @@ public class Decode extends Code {
         init();
         StringBuilder result = new StringBuilder();
 
-
-
         for (int i = 0; i < getWord().length(); i++) {
             int x = getArrayWordNumber()[i] - getArrayKeyNumber()[i];
             if (x < 0) {
@@ -32,8 +30,6 @@ public class Decode extends Code {
                 result.append(Code.alphabet[x].toUpperCase());
             }
         }
-
-
         return result;
     }
 }
